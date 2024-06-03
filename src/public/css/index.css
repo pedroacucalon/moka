@@ -1,0 +1,42 @@
+body{
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    gap: 9px;
+}
+.logo{
+    width: 5%;
+    height: 3%;
+}
+.header-center{
+    display: flex;
+    gap: 0.5%;
+    padding-left: 1.8%;
+    align-items: center;
+}
+.header-top{
+    gap: 1%;
+    display: flex;
+    list-style-type: none;
+    background-color: #0097A7;
+    ;
+    padding: 0.6%;
+    padding-left: 2%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h2{
+    color: #0097A7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+select{
+    appearance: none;
+    background-color: #0097A7;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none ;
+    font-size: 100%;
+}
