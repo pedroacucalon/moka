@@ -9,17 +9,25 @@
 <body>
     <header>
         <div class="header-top">
-            <li ><a >Inicio</a></li>
-            <li ><a >Consultas</a></li>
-            <li ><a >Acerca de</a></li>
-            <select name="" id="" >
-                <option value="">Servicio 1</option>
-                <option value="">Servicio 2</option>
-            </select>
+            <li><a>Inicio</a></li>
+            <li><a>Consultas</a></li>
+            <li><a>Acerca de</a></li>
+            <details>
+                <summary>Opciones</summary>
+                <div class="opciones">
+                    <a >Servicio</a>
+                    <a >Compras</a>
+                    <a >Contactanos</a>
+                </div>
+            </details>
+            
         </div>
         <div class="header-center">
             <img class="logo" src="./src/public/images/moka.png" alt="">
             <h2>Moka</h2>
+        </div>
+        <div>
+            <img class="portada" src="./src/public/images/image.jpg" alt="">
         </div>
     </header>
     <script src="./src/public/js/index.js"></script>

@@ -10,6 +10,9 @@ header{
     width: 5%;
     height: 3%;
 }
+.portada{
+    width: 100%;
+}
 .header-center{
     display: flex;
     gap: 0.5%;
@@ -17,26 +20,36 @@ header{
     align-items: center;
 }
 .header-top{
-    gap: 1%;
+    gap: 3%;
     display: flex;
     list-style-type: none;
     background-color: #0097A7;
+    height: 20px;
     ;
     padding: 0.6%;
     padding-left: 2%;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
 h2{
     color: #0097A7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-select{
-    appearance: none;
+details {
+    position: relative;
+}
+
+summary {
+    cursor: pointer;
+}
+.opciones{
+    display: flex;
+    flex-direction: column;
     background-color: #0097A7;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: none ;
-    font-size: 100%;
+
+}
+
+.opciones a:hover {
+    background-color: #f1f1f1;
+    color: #0097A7;
 }
