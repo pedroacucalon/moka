@@ -13,18 +13,20 @@ header{
 .portada{
     width: 100%;
 }
-.header-center{
+.header-top{
     display: flex;
     gap: 0.5%;
-    padding-left: 1.8%;
+    padding-left: 1%;
     align-items: center;
+    background-color: #0097A7;
+    padding: 1%;
 }
-.header-top{
+.header-center{
     gap: 3%;
     display: flex;
     list-style-type: none;
-    background-color: #0097A7;
-    height: 20px;
+    background-color: darkgray;
+    height: 40px;
     ;
     padding: 0.6%;
     padding-left: 2%;
@@ -32,7 +34,7 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
 h2{
-    color: #0097A7;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 details {
@@ -45,11 +47,21 @@ summary {
 .opciones{
     display: flex;
     flex-direction: column;
-    background-color: #0097A7;
+    background-color: darkgrey;
+    color: dimgray;
+    margin-left: 20%;
+    width: 110%;
+    padding-left: 5%;
 
 }
 
 .opciones a:hover {
     background-color: #f1f1f1;
     color: #0097A7;
+}
+.barra-busqueda{
+    border-radius: 5px;
+    width: 50%;
+    height: 45px;
+    margin-left: 12%;
 }
