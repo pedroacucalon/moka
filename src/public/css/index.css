@@ -30,14 +30,14 @@ header{
 }
 .right{
     display: flex;
-    width: 39%;
-    justify-content: flex-end;
+    width: 15%;
     padding-right: 10px;
+    justify-content: center;
     
 }
 .left{
     display: flex;
-    width: 61%;
+    width: 85%;
     min-width: 300px;
     gap: 15px;
     align-items: baseline;
@@ -77,6 +77,6 @@ summary {
     background-color: #ba5192;
     color: white;
     border-radius: 10px;
-    width: 35% ;
+    width: 100% ;
     min-width: 80px;
 }
