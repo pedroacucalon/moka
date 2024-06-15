@@ -5,14 +5,14 @@ header{
     display: flex;
     flex-direction: column;
     padding-top: 1%;
-    gap: 3px;
+    gap: 1px;
 }
 .logo{
     display: flex;
     height: 7vw;
     width: 7vw;
-    min-height: 50px;
-    min-width: 50px;
+    min-height: 40px;
+    min-width: 40px;
 }
 .portada{
     width: 100%;
@@ -26,31 +26,33 @@ header{
     padding-right: 1.8%;
 }
 .left, .right{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
     align-items: center;
 }
 .right{
+    display: flex;
+    width: 39%;
     justify-content: flex-end;
-    padding-right: 2%;
+    padding-right: 10px;
     
 }
 .left{
+    display: flex;
+    width: 61%;
     min-width: 300px;
-    gap: 7px;
+    gap: 20px;
+    align-items: baseline;
 }
 .header-center{
     gap: 3%;
     display: flex;
     list-style-type: none;
     height: 60px;
-    padding: 0.6%;
     padding-left: 4%;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     font-size: 1.5vw;
     justify-content: space-between;
+    align-items: center;
 }
 details {
     position: relative;
@@ -65,8 +67,6 @@ summary {
     flex-direction: column;
     color: dimgray;
     margin-left: 20%;
-    width: 110%;
-    padding-left: 5%;
 
 }
 
