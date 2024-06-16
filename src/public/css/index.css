@@ -76,6 +76,7 @@ header{
     width: 100% ;
     min-width: 85px;
     margin-right: 30px;
+    white-space: nowrap;
 }
 .mensaje{
     font-size: 10vw;
