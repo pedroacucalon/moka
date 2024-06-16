@@ -74,7 +74,7 @@ header{
     color: white;
     border-radius: 10px;
     width: 100% ;
-    min-width: 90px;
+    min-width: 100px;
 }
 .mensaje{
     font-size: 10vw;
