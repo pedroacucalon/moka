@@ -54,25 +54,20 @@ header{
     justify-content: space-between;
     align-items: baseline;
 }
-details {
-    position: relative;
-}
-
-summary {
-    cursor: pointer;
-    min-width: 50px;
-}
-.opciones{
-    display: flex;
-    flex-direction: column;
+.opciones-lista{
+    display: none;
+    position: absolute;
     color: dimgray;
-    margin-left: 20%;
-
+    background-color: whitesmoke;
+    box-shadow: 0 4px 7px rgb(0, 0, 0,0.2);
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start: 0.5%;
+    z-index: 100;
+    width: 7%;
 }
-
-.opciones a:hover {
-    background-color: #f1f1f1;
-    color: #0097A7;
+.opciones:hover .opciones-lista{
+    display: flex;
 }
 .btn-iniciarSesion{
     background-color: #ba5192;
@@ -80,4 +75,26 @@ summary {
     border-radius: 10px;
     width: 100% ;
     min-width: 80px;
+}
+.mensaje{
+    font-size: 8vw;
+    padding-left: 5%;
+    font-family: fantasy;
+}
+.btn-pedirAhora{
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color: #ba5192;
+    color: white;
+    border-radius: 10px;
+    width: 40% ;
+    min-width: 150px;
+    font-size: 2.5vw;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.postre{
+    height: 50vw;
 }
