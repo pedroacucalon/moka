@@ -77,9 +77,9 @@ header{
     min-width: 80px;
 }
 .mensaje{
-    font-size: 8vw;
+    font-size: 10vw;
     padding-left: 5%;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .btn-pedirAhora{
     margin-left: 5%;
